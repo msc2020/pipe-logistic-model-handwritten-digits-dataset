@@ -17,7 +17,7 @@ Em resumo, segundo o [Github do Kedro](https://github.com/kedro-org/kedro):
 
 ### Setup de ambiente local
 ```shell
-python -m venv  .venv  # cria umambiente virtual chamado .venv
+python -m venv  .venv  # cria um ambiente virtual chamado .venv
 source .venv/bin/activate  # ativa o .venv
 python -m pip install -r requirements.txt  # instala os pré-requisitos no ambiente virtual
 ```
