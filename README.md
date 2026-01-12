@@ -10,16 +10,16 @@ Com base nos valores de pixels de imagens de dígitos manuscritos, desenvolvemos
 
 Em seguida, implementamos esses códigos na forma de um pipeline com o Kedro, no qual os nós correspondem as etapas feitas previamente no [Jupyter notebook](./notebooks/steps-kedro-pipeline-logistic-model-digits-handwritten-dataset.ipynb).
 
-Em resumo, segundo o [Github do Kedro](https://github.com/kedro-org/kedro)
+Em resumo, segundo o [Github do Kedro](https://github.com/kedro-org/kedro):
 > Kedro é uma caixa de ferramentas para ciência de dados pronta para produção. Ele usa as melhores práticas de engenharia de software para ajudá-lo a criar pipelines de engenharia e ciência de dados que sejam reproduzíveis, fáceis de manter e modulares.
 
 
 
 ### Setup de ambiente local
 ```shell
-python -m venv  .venv  # create a virtual enviroment named .venv
-source .venv/bin/activate  # activate the .venv
-python -m pip install -r requirements.txt  # instala pré-requisitos no ambiente virtual
+python -m venv  .venv  # cria umambiente virtual chamado .venv
+source .venv/bin/activate  # ativa o .venv
+python -m pip install -r requirements.txt  # instala os pré-requisitos no ambiente virtual
 ```
 
 ## Como rodar os códigos
