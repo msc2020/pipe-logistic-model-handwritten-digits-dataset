@@ -1,4 +1,4 @@
-# Pipeline com Kedro para classificação dígitos
+# Pipeline com Kedro para classificação de dígitos manuscritos
 
 
 ## Overview
