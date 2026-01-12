@@ -1,0 +1,33 @@
+# inputs
+digits:
+  type: pandas.CSVDataset
+  filepath: 'data/digits/digits.csv'
+
+target:
+  type: pandas.CSVDataset
+  filepath: 'data/digits/target.csv'
+
+# intermediates
+scaler:
+  type: pickle.PickleDataset
+  filepath: data/digits/scaler.pickle
+  versioned: false
+
+model_clf:
+  type: pickle.PickleDataset
+  filepath: data/digits/model.pickle
+  versioned: false
+
+# outputs
+performance_metrics_train:
+  type: text.TextDataset
+  filepath: data/digits/metrics_train.txt
+
+performance_metrics_test:
+  type: text.TextDataset
+  filepath: data/digits/metrics_test.txt
+
+some_results_with_images:
+  type: matplotlib.MatplotlibDataset  # matplotlib.MatplotlibWriter
+  filepath: data/digits/some_results_with_images.png
+  versioned: false
