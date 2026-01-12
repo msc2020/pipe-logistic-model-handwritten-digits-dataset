@@ -2,7 +2,7 @@
 # KEDRO PROJECT
 
 # extras
-.pytest_cache/*
+.pytest_cache/
 logs/
 
 # ignore all local configuration
