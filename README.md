@@ -3,7 +3,8 @@
 
 ## Overview
 
-Com base nos valores de pixels de imagens de dígitos manuscritos, desenvolvemos um pipeline em caráter de estudos para pré-processamento, modelagem, predição e avaliação de performance, para tarefa de classificar o dígito presente em uma imagem de entrada que contém um dígito manuscrito.
+Com base nos valores de pixels de imagens de dígitos manuscritos, desenvolvemos um pipeline em caráter de estudos, contendo as etapas de pré-processamento, treinamento, predição e avaliação de performance. A tarefa preditiva em questão é a classificação do dígito manuscrito presente em uma imagem de entrada.
+
 
 <img src="imgs/some_predicts_digits.png">
 
