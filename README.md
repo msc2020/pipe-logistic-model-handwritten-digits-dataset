@@ -65,7 +65,7 @@ Para visualizar o pipeline criado, podemos usar o seguinte comando:
 kedro viz
 ```
 
-É possível exportar (`--save-file`) e importar (`--load-file`) essa informações estruturadas dessa vizualização com:
+É possível exportar (`--save-file`) e importar (`--load-file`) as informações dessa vizualização com:
 
 ```shell
 kedro viz --save-file diagram/my_shareable_pipeline.json
@@ -76,7 +76,7 @@ kedro viz --save-file diagram/my_shareable_pipeline.json
 
 ## Listando os pipelines disponíveis
 
-Podemos explorar os comandos da CLI do Kedro usando a flag `--help`. Por exemplo, ao rodaro seguinte comando
+Para explorar os comandos da CLI do Kedro podemos usar a flag `--help`. Por exemplo, rodando o seguinte comando, obtemos mais informações sobre o `kedro registry`:
 
 ```shell
 kedro registry --help
@@ -97,7 +97,7 @@ kedro registry --help
 
 <img src="imgs/input_digits.png">
 
-Dessa maneira, conseguimos exibir todos os pipelines e subpipelines registrados no `pipeline_registry.py` com:
+Conseguimos exibir todos os pipelines e subpipelines registrados no `pipeline_registry.py` com:
 
 ```shell
 kedro registry list
@@ -112,7 +112,7 @@ kedro registry list
 <img src="imgs/final_steps_pipeline.png">
 
 
-É possível obtermos mais informações sobre um determinado pipeline registrado usando o `describe`. Por exemplo, para ver mais quais nós implementamos para a etapa de avaliação de métrica rodamos o seguinte comando:
+Para obter informações sobre um determinado pipeline registrado usamos o `describe`. Por exemplo, para ver mais quais nós implementamos para a etapa de avaliação de métrica (`eval_metrics`) rodamos o seguinte comando:
 
 
 
@@ -127,7 +127,7 @@ kedro registry describe eval_metrics
 
 <img src="imgs/some_predicts.png">
 
-As métricas que avaliam o modelo treinado foram exportadas em para formatos que podem ser úteis para as análises de performance.
+As métricas que avaliam o modelo treinado foram exportadas para formatos que podem ser úteis para as análises de performance.
 
 <img src="imgs/output_metrics.png">
 
